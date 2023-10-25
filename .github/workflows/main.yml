@@ -27,7 +27,7 @@ jobs:
           pipenv run pytest
 
   format:
-    name: runner / black formatter
+    name: format
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
