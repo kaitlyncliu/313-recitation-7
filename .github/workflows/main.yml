@@ -26,11 +26,7 @@ jobs:
         run: |
           pipenv run pytest
 
-name: format
-on: [push, pull_request]
-
-jobs:
-  linter_name:
+  format:
     name: runner / black formatter
     runs-on: ubuntu-latest
     steps:
